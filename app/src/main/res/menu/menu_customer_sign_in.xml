@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="customer.bringupwater.com.bringupwatertocustomers.CustomerSignIn">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Sign In"
+        android:actionLayout="@layout/content_customer_sign_in"
+        app:showAsAction="never" />
+</menu>

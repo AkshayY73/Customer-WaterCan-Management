@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_chose"
+            android:icon="@drawable/ic_track_changes_black_24dp"
+            android:title="Change Location" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Order History" />
+    </group>
+
+    <item android:title="Payment">
+        <menu>
+            <item
+                android:id="@+id/nav_pay"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="Payment History" />
+            <item
+                android:id="@+id/nav_due"
+                android:icon="@drawable/ic_payment_black_24dp"
+                android:title="Payment Due" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glass">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Register"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="15"
+        android:hint=" First Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="15"
+        android:hint=" Last Name"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:ems="15"
+        android:hint=" Email"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:ems="15"
+        android:hint=" Phone"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="18dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="15"
+        android:hint=" Password"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="23dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="15"
+        android:hint=" Confirm Password"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:textColor="#FF2CB39C"
+        android:text="Register" />
+
+
+</RelativeLayout>
+    </ScrollView>
